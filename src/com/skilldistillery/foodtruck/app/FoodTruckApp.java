@@ -33,7 +33,6 @@ public class FoodTruckApp {
 			fleet[i] = userTruck;
 			counter = counter + 1; //adds one to counter
 		}
-//		String answer = null;
 
 		for (;;) {
 			userTruck.displayMenu(); // calls display menu method in the Foodtruck class
