@@ -13,16 +13,6 @@ public class Foodtruck { // creating the class Foodtruck
 	public Foodtruck() {
 		fleet = new Foodtruck[5];
 		id = nextTruckId++;
-			
-	}
-
-	private int getId() { // get id method for returning the id
-		
-		return id;
-	}
-
-	public void setId(int id) { // set id method for setting the id
-		this.id = id;
 	}
 
 	public String getName() { // get name method for returning the name
@@ -61,10 +51,6 @@ public class Foodtruck { // creating the class Foodtruck
 	public String toString() { //
 		String output = "Name: " + name + " Type: " + foodType + " Rating: " + rating + " ID: " + id;
 		return output;
-	}
-
-	public Foodtruck[] getTrucks() { //
-		return fleet;
 	}
 
 	public Foodtruck(String name, String type, int rating) { //
